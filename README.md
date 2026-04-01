@@ -331,4 +331,13 @@ Invoke-AtomicTest T1490 -TestNumbers 1
 | IMPACT STAGE DETECTED (T1489 — Service Stop) | ✅ Complete |
 | KILL CHAIN VISUALIZATION IN OPENSEARCH | ✅ Complete |
 
-## Final thought :- 
+## Final thought :- Through building Sentient Shield, I gained practical experience in designing and implementing a real-world Security Operations Center (SOC) detection and response system.
+
+### I learned how to:
+1. Deploy and manage an endpoint detection system using Wazuh
+2. Monitor system activity and detect threats using Sysmon
+3. Implement File Integrity Monitoring (FIM) to detect unauthorized system changes
+4. Map security events to adversary behavior using the MITRE ATT&CK framework
+5. Build and tune detection rules to identify real attack patterns
+6. Automate incident response actions to reduce reaction time
+7. Simulate real-world attacks using Atomic Red Team to validate detection capabilities
