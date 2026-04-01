@@ -197,7 +197,7 @@ hydra -l ubuntu -P /usr/share/wordlists/rockyou.txt -t 4 -v ssh://192.168.91.150
 
 ### Now we are configuring our active response.
 
-1. Open `/var/ossec/etc/ossec.conf` this file in any editor and add following lines in <active-response> tag :-
+1. Open `/var/ossec/etc/ossec.conf` this file in any editor and add following lines in `<active-response>` tag :-
 ```
   <command>firewall-drop</command>
   <location>local</location>
