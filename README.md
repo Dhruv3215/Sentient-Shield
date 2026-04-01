@@ -138,6 +138,8 @@ NET START WazuhSvc
 > FIM alert fired at rule level 7 — confirmed in event detail panel see [fim-5s.png](images/fim-5s.png).
 
 ### Enable vulnerability detector
+
+1. Add this into `/var/ossec/etc/ossec.conf` in wazuh-manager.
 ```
 <vulnerability-detector>
   <enabled>yes</enabled>
@@ -167,6 +169,12 @@ NET START WazuhSvc
   </provider>
 </vulnerability-detector>
 ```
+2. Restart the wazuh-manager 
+```
+sudo systemctl restart wazuh-manager
+```
+3. Now click on vulnerebility detector on wazuh-dashboard.
+
 ![This is a image of vulnerability detector graphical dashboard.](images/vuln-detector.png "This is a image of ubuntu vulnerability detector graphical dashboard.")
 ![This is a image of detailes of specific vulnerability.](images/vuln-details.png "This is a image of detailes of specific vulnerability.")
 
