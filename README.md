@@ -248,7 +248,7 @@ cat /var/ossec/logs/alerts/alerts.log | grep -E "Rule: 651|Rule: 652|Rule: 5763|
 |10:07:52	|5763	|10	|First brute force detected — 8 failures from 192.168.91.133	| Alert only — no active response yet (not configured at this point)
 |10:25:43	|5763	|10	|Second brute force detected — 8 failures from 192.168.91.133	| Triggers active response firewall-drop
 |15:55:47	|651	|3	|Host Blocked by firewall-drop Active Response	| command: add — IP banned in iptables on UBUNTU agent
-|16:00:47	|652	|3	|Host Unblocked by firewall-drop Active Response	| command: delete — IP removed after exactly 3600 seconds  
+|17:00:47	|652	|3	|Host Unblocked by firewall-drop Active Response	| command: delete — IP removed after exactly 3600 seconds  
 
 ### GATE CHECK:-
 | TASKS  | STATUS |
